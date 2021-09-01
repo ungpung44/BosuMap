@@ -1,9 +1,10 @@
 import React from 'react';
+import './Header.css';
 
 function Header() {
     return (
         <header>
-            BosuMap
+            <div className="logo">BosuMap</div>
             <ul>
                 <li>About</li>
                 <li>Board</li>
